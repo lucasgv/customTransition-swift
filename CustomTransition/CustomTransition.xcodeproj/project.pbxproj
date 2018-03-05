@@ -14,6 +14,8 @@
 		82BC746C204D83090026B549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BC746A204D83090026B549 /* LaunchScreen.storyboard */; };
 		82BC7477204D83090026B549 /* CustomTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC7476204D83090026B549 /* CustomTransitionTests.swift */; };
 		82BC7482204D83090026B549 /* CustomTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC7481204D83090026B549 /* CustomTransitionUITests.swift */; };
+		82D341E5204D96E1003EFAD6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D341E4204D96E1003EFAD6 /* DetailViewController.swift */; };
+		82D341E7204DA8B8003EFAD6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D341E6204DA8B8003EFAD6 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		82BC747D204D83090026B549 /* CustomTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC7481204D83090026B549 /* CustomTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionUITests.swift; sourceTree = "<group>"; };
 		82BC7483204D83090026B549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D341E4204D96E1003EFAD6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		82D341E6204DA8B8003EFAD6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				82BC7468204D83090026B549 /* Assets.xcassets */,
 				82BC746A204D83090026B549 /* LaunchScreen.storyboard */,
 				82BC746D204D83090026B549 /* Info.plist */,
+				82D341E4204D96E1003EFAD6 /* DetailViewController.swift */,
+				82D341E6204DA8B8003EFAD6 /* FeedCell.swift */,
 			);
 			path = CustomTransition;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D341E5204D96E1003EFAD6 /* DetailViewController.swift in Sources */,
+				82D341E7204DA8B8003EFAD6 /* FeedCell.swift in Sources */,
 				82BC7464204D83090026B549 /* ViewController.swift in Sources */,
 				82BC7462204D83090026B549 /* AppDelegate.swift in Sources */,
 			);
